@@ -1,0 +1,111 @@
+*{
+  font-family: cursive;
+}
+body{
+    justify-content: center;
+}
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ques{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+    text-align: center;
+    color: darkblue;
+    padding: 25px;
+    position: fixed;
+    font-family: monospace;
+    z-index: 100;
+}
+.di1{
+    margin-left: 50px;
+    margin-top: 90px;
+    color: black;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.di1 input[type = radio]{
+    margin-left: 5%;
+    width: 15px;
+    height: 15px;
+    color: saddlebrown;
+    background-color: black;
+}
+.di1 label{
+    color: pink;
+}
+
+.q1{
+  width: 50%;
+  float: left;
+}
+.di1 h1{
+  font-size: 2rem;
+  color: blue;
+}
+.q2{
+  width: 50%;
+  float: right;
+}
+
+.modal{
+  width: 100%;
+  color: darkblue;
+  z-index: 100;
+}
+.modal-dialog-centered .modal-content{
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #2BFF88 0%, #2BD2FF 52%, #9be15d 90%);
+  z-index: 100;
+}
+.modal-footer button{
+  background-color: darkblue;
+  color: pink;
+  border-style: none;
+}
+.modal-footer button:hover{
+  background-color: darkblue;
+}
+
